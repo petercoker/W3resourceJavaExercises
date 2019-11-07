@@ -6,9 +6,9 @@ import com.w3resource.BasicExercisesPart_1.*;
 public class Main {
 
     public static void main(String[] args) {
-        Ex7 exercise  = new Ex7();
+        Ex8 exercise  = new Ex8();
 
-        exercise.Multiplication();
+        exercise.PrintJavaPattern();
 
 
     }
