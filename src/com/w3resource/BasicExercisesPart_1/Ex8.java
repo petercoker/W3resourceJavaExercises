@@ -23,15 +23,9 @@ public class Ex8{
         js[3][0] = " ";
         js[3][1] = "J";
         js[3][2] = "J";
-        js[3][3] = "J";
+        js[3][3] = "J";        
 
-        // String[] test = new String [] {"a", "b", "c"};
-
-        // Print elements using for loop
-        // for (int i = 0; i < test.length; i++) {
-        //     System.out.println(test[i]);
-        // }
-
+        // Print elements using foreach loop
         for (int i = 0; i < js.length; i++) {
             for (int j = 0; j < js[i].length; j++) {
                 System.out.print(js[i][j]);
