@@ -5,12 +5,13 @@ import com.w3resource.BasicExercisesPart_1.*;
 
 public class Main {
 
-    public static void main(String[] args) {
-        Ex12 exercise  = new Ex12();
+    //static Scanner input = new Scanner(System.in);
 
+    public static void main(String[] args) {
+        Ex13 exercise  = new Ex13();
+
+        exercise.GetPerimeter(5.6, 8.5);
         
-        // exercise.GetAverageOf5Numbers();
-        exercise.GetAverage();
 
 
     }
