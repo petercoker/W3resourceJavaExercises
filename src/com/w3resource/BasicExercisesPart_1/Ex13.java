@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ex13{
 
-    static Scanner input = new Scanner(System.in);
+    
     // Test Data:
     // Width = 5.5 Height = 8.5
 
@@ -15,9 +15,11 @@ public class Ex13{
     public void GetArea(double width, double height){
         System.out.println("Area is " + width + " *" + " " + height + " = " + width * height);
     }
-    
+
     public void GetPerimeter (double width, double height){
         System.out.println("Perimeter is 2 * (" + width + " +" + " " + height + ") = " + 2 * (width + height));
     }
+
+
 
 }

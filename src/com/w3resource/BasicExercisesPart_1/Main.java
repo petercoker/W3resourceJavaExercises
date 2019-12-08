@@ -8,9 +8,9 @@ public class Main {
     //static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Ex15 exercise  = new Ex15();
+        Ex14 exercise  = new Ex14();
 
-        exercise.SwapTwoInteger();
+        exercise.printUsaFlag();
         
 
 
